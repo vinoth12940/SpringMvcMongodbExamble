@@ -8,7 +8,7 @@ public class User {
 
 	@Id
 	private String id;
-			
+	// changes
 	private String name;
 
 	public User(String id, String name) {
