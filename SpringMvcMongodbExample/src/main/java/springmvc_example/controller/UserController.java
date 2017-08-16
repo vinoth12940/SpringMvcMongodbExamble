@@ -17,7 +17,7 @@ public class UserController {
 
 	@Autowired
 	UserService userService;
-	
+	//My first change
 	@RequestMapping(value="/list", method=RequestMethod.GET)
 	public ModelAndView list(){
 		
