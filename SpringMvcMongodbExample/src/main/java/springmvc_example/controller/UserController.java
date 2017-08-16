@@ -18,6 +18,7 @@ public class UserController {
 	@Autowired
 	UserService userService;
 	//My first change
+	//second chage
 	@RequestMapping(value="/list", method=RequestMethod.GET)
 	public ModelAndView list(){
 		
