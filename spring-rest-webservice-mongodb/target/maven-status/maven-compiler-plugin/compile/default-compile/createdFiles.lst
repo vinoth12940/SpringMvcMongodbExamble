@@ -1,0 +1,8 @@
+com\spring\webservice\mongodb\responses\BasicResponse.class
+com\spring\webservice\mongodb\responses\SinglePersonResponse.class
+com\spring\webservice\mongodb\responses\MultiplePersonResponse.class
+com\spring\webservice\mongodb\config\WebConfig.class
+com\spring\webservice\mongodb\model\Person.class
+com\spring\webservice\mongodb\controllers\PersonController.class
+com\spring\webservice\mongodb\dao\PersonRepository.class
+com\spring\webservice\mongodb\config\WebInitiliser.class
