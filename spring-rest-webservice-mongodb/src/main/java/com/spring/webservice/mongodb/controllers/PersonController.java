@@ -24,9 +24,6 @@ import com.spring.webservice.mongodb.responses.MultiplePersonResponse;
 import com.spring.webservice.mongodb.responses.SinglePersonResponse;
 
 
-
-// http://CodeArsenal.net/2015/10/java-spring-restful-web-service-mongodb.html
-
 @Controller
 public class PersonController {
 

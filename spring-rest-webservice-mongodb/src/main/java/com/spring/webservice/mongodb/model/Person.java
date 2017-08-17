@@ -3,7 +3,7 @@ package com.spring.webservice.mongodb.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-//	http://CodeArsenal.net/2015/10/java-spring-restful-web-service-mongodb.html
+
 
 @Document
 public class Person {

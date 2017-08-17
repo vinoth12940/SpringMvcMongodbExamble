@@ -1,6 +1,5 @@
 package com.spring.webservice.mongodb.responses;
 
-//	http://CodeArsenal.net/2015/10/java-spring-restful-web-service-mongodb.html
 
 public class BasicResponse {
 	
