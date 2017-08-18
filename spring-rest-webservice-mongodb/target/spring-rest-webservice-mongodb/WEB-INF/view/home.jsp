@@ -9,8 +9,10 @@
 </head>
 <body>
 
-<spring:url value="/user/add" var="addURL"></spring:url>
-<a href="${addURL }">Add User</a>
+<h1>Welcome to stallionsCC.com</h1>
+<%-- 
+<spring:url value="/person/addPerson" var="addURL"></spring:url>
+<a href="${addURL }">Add Person</a>
 
 
 <h1>List User</h1>
@@ -21,22 +23,36 @@
 			<th colspan="2">Action</th>
 		</tr>
 	</thead>
+	<thead>
+		<tr>
+			<th>Age</th>
+			<th colspan="2">Action</th>
+		</tr>
+	</thead>
+	<thead>
+		<tr>
+			<th>Country</th>
+			<th colspan="2">Action</th>
+		</tr>
+	</thead>
 	<tbody>
-		<c:forEach items="${listUser }" var="user">
+		<c:forEach items="${resp }" var="person">
 			<tr>
-				<td>${user.name }</td>
+				<td>${person.name }</td>
+				<td>${person.age }</td>
+				<td>${person.country }</td>
 				<td>
-					<spring:url value="/user/update/${user.id }" var="updateURL" />
+					<spring:url value="/person/update/${person.name }" var="updateURL" />
 					<a href="${updateURL }">Update</a>
 				</td>
 				<td>
-					<spring:url value="/user/delete/${user.id }" var="deleteURL" />
+					<spring:url value="/person/delete/${person.name }" var="deleteURL" />
 					<a href="${deleteURL }">Delete</a>
 				</td>
 			</tr>
 		</c:forEach>
 	</tbody>
 </table>
-
+ --%>
 </body>
 </html>
