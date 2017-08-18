@@ -4,10 +4,6 @@ import java.util.List;
 
 import com.spring.webservice.mongodb.model.Person;
 
-
-
-
-
 public class MultiplePersonResponse {
 
 	private boolean success;
