@@ -39,7 +39,7 @@ public class PersonController {
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		String formattedDate = dateFormat.format(date);
 		model.addAttribute("serverTime", formattedDate);
-		return "status";
+		return "home";
 	}	
 	
 	@RequestMapping(value = "/persons", method = RequestMethod.GET)
